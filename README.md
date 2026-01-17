@@ -7,6 +7,7 @@ This repository is a **learning course** to build Python skills for **AS91906** 
 - Read the comments, then complete the **TODO** exercises.
 - **Commit often** (small commits are best).
 - Keep your code readable: good names, clear comments.
+- Mark the checkpoints as you go.
 
 ## What you need
 - VS Code
