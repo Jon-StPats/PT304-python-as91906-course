@@ -4,14 +4,14 @@ Goal: Use selection to make decisions.
 """
 
 # --- Example ---
-score = 85
+""" score = 10
 
 if score >= 80:
     print("High score")
 elif score >= 50:
     print("Pass")
 else:
-    print("Not yet")
+    print("Not yet") """
 
 # --- TODO 1 ---
 # Ask the user for a test mark (0–100).
@@ -20,6 +20,16 @@ else:
 # - "Merit" for 50–79
 # - "Achieved" for 0–49
 # Also handle invalid marks (<0 or >100) with "Invalid mark".
+
+mark = int(input("Enter mark (0-100): "))
+if mark < 0 or mark > 100:
+    print("Invalid mark")
+elif mark >= 80:
+    print("Excellence")
+elif mark >= 50:
+    print("Merit")
+else:
+    print("Achieved")
 
 # --- TODO 2 ---
 # Ask the user for a password.
